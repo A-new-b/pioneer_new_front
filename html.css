@@ -1,0 +1,89 @@
+.main_level {
+    background: #DE0023;
+    border-right: 1px solid #fff;
+    font-size: 18px;
+    font-family: 微软雅黑, serif;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.main_level :hover {
+    color: #fff;
+    text-decoration: none;
+    background: #062723 0 0 repeat-x;
+}
+.main_level a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 48px;
+    display: block;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.block_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block_title_tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.block_title_blue{
+    font-size: 18px;
+    color: #003399;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", serif;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.block_divider{
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid red;
+}
+.block_more{
+    font-size: 12px;
+    color: #cccccc;
+    font-family: "Microsoft YaHei", serif;
+}
+.block_tab :hover{
+    color: #fff;
+    font: 16px/normal "Microsoft YaHei";
+    font-weight: bold;
+    height: 25px;
+    background-color: #DE0023;
+}
+.block_tab {
+    color: black;
+    font: 16px/normal "Microsoft YaHei";
+    font-weight: bold;
+    height: 25px;
+    background-color: white;
+}
+.block_list{
+    display: flex;
+    flex-direction: column;
+}
+.block_list_a{
+    font-size: 14px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.block_list_time{
+    font-size: 10px;
+    color: #cccccc;
+    font-family: "Microsoft YaHei", serif;
+}
